@@ -4,12 +4,14 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract DarthStablecoin is IERC20{
-    // must have a owner, 
-    // must have a total supply
-    // must have a name and decimal
-    // see balance, transfer, approve, transfer from, allowance
-    // blacklist and unblacklist an address
-    // redeem and issue token for balance
+    /**
+    must have a owner, 
+    must have a total supply
+    must have a name and decimal
+    see balance, transfer, approve, transfer from, allowance
+    blacklist and unblacklist an address
+    redeem and issue token for balance
+    */
 
     address public owner;
     uint public override totalSupply;
